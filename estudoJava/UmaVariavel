@@ -1,0 +1,33 @@
+*
+ Tipos de variaveis possiveis:
+   float
+   int
+   char
+   
+   variavel eh uma area de memoria associada a um nome (definido por nos),
+   que armazena valores de um determinado tipo.
+   
+ Declarando variavel:
+  
+    <tipo> <nome da variavel>;
+    <tipo> < nome da variavel> = <valor>;
+    
+ A nomenclatura da variavel estah convencionada.
+ padronizado em uso de camelCase. para nomear as variaveis.
+ Existem palavras reservadas, que nao podem ser usadas.
+ */
+
+
+
+
+
+public class UmaVariavel {
+
+	public static void main(String[] args) {
+
+		int cont = 0;
+		
+		System.out.println ("O que foi escrito: " + cont);
+	}
+
+}
