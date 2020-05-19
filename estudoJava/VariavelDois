@@ -1,0 +1,34 @@
+/*
+ Tipos primitivos:
+ tipos inteiros / tamanho em bits / intervalo de valores / elevado a: 
+ 	byte 8 		/ -128 a 127					/ -(2^7) a 2^7 -1
+ 	short 16 	/ -32768 a 32767				/ -(2^15) a 2^15 -1 
+	int 32 		/ -2.147.483.648 a 2147483647	/ -(2^31) a 2^31 -1
+ 	long 64 	/ -9.223.372.036.854.775.808 a	/ -(2^63) a 2^63 -1
+ 				9223372036854775807
+ Ponto flutuante:
+  	float		/ 32 / 100.30f
+  	double		/ 64 / 100.30
+  	
+  		Tabela ASCII
+  			www.asciitable.com
+  	
+  		Unicode
+ 				char o = 111;
+ 				char i = 105;
+ 				char interrogacao = 0x00E1;
+ 
+ 	Boolean:
+ 		boolean verdadeiro = true;
+ 		boolean falso = false;
+ 
+ */
+public class VariavelDois {
+
+	public static void main(String[] args) {
+
+		System.out.println ("Foi escrito: " + 5*2);
+		
+	}
+
+}
